@@ -12,8 +12,8 @@ if status is-interactive
 
 end
 
-set -x ANDROID_HOME "/home/rafli/Android/Sdk"
-set -x ANDROID_SDK_ROOT "/home/rafli/Android/Sdk"
+set -x ANDROID_HOME /home/rafli/Android/Sdk
+set -x ANDROID_SDK_ROOT /home/rafli/Android/Sdk
 
 starship init fish | source
 if test -f ~/.local/state/quickshell/user/generated/terminal/sequences.txt
@@ -24,6 +24,7 @@ alias pamcan pacman
 alias clear "printf '\033[2J\033[3J\033[1;1H'"
 alias sd="shutdown now"
 alias rb="reboot"
+alias ocf="cd ~/.config/hypr && nvim"
 export ANDROID_HOME="/home/rafli/Android/Sdk"
 export ANDROID_SDK_ROOT="/home/rafli/Android/Sdk"
 

@@ -1,11 +1,25 @@
 
 *
 !.gitignore
+
+!hypr/
 !hypr/**
+
+!kitty/
 !kitty/**
+
+!waybar/
 !waybar/**
+
+!wofi/
 !wofi/**
+
+!rofi/
 !rofi/**
+
+!nvim/
 !nvim/**
+
+!fish/
 !fish/**
 
