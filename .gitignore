@@ -20,3 +20,5 @@
 !nvim/
 !nvim/**
 
+!fish/
+!fish/**
