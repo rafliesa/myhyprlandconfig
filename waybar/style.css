@@ -1,0 +1,95 @@
+@define-color base   #191819;
+@define-color text     #cdd6f4;
+
+* {
+    font-family: "FiraMono Nerd Font Propo", "FiraCode Nerd Font Propo", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: @text;
+}
+
+
+window#waybar {
+    background-color: alpha(@base, 1);
+    border-radius: 10px;
+}
+
+tooltip {
+    padding: 0;
+    /*border: 2px solid @lavender;*/
+    border: 2px solid transparent;
+    border-radius: 18px;
+    background-color: alpha(@base, 1);
+}
+
+tooltip * {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: inherit;
+    background-color: transparent;
+}
+
+tooltip label {
+    padding: 8px;
+}
+
+.modules-left {
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+#workspaces, #window {
+    margin: 0px 2px;
+}
+
+#workspaces {
+    padding: 0px 0px;
+}
+
+#window {
+    padding: 0px 8px;
+    transition-property: padding;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.1, 1.0, 0.3, 1.8);
+}
+
+.modules-center {
+    margin: 0px 10px;
+}
+
+#clock {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding: 0px 18px;
+    background-color: alpha(#232123, 1);
+    border-radius: 10px;
+}
+
+#clock label:hover {
+    background-color: white;
+}
+
+.modules-right {
+    padding: 0px 10px;
+}
+
+#tray {
+    margin: 0px 0px;
+    padding: 0px 6px;
+    /*background-color: #ffffff;*/
+}
+
+#pulseaudio.input,
+#pulseaudio.output,
+#battery,
+#network {
+    margin: 0px 0px;
+    padding: 0px 8px;
+    /*background-color: #ffffff;*/
+}
+
+
+#battery {
+    font-size: 24px;
+}
