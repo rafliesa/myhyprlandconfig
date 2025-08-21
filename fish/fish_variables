@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export --path PATH:/home/rflsaa/\x2eghcup/bin\x1e/home/rflsaa/\x2eghcup/bin\x1e/home/rflsaa/\x2eghcup/bin\x1e/home/rflsaa/\x2eghcup/bin\x1e/run/wrappers/bin\x1e/home/rflsaa/\x2enix\x2dprofile/bin\x1e/nix/profile/bin\x1e/home/rflsaa/\x2elocal/state/nix/profile/bin\x1e/etc/profiles/per\x2duser/rflsaa/bin\x1e/nix/var/nix/profiles/default/bin\x1e/run/current\x2dsystem/sw/bin\x1e/nix/store/87zpmcmwvn48z4lbrfba74b312h22s6c\x2dbinutils\x2dwrapper\x2d2\x2e44/bin\x1e/nix/store/14gqnn5rwjv5a6b8vpkskb37kgv373jy\x2dhyprland\x2dqtutils\x2d0\x2e1\x2e4/bin\x1e/nix/store/kh6s3i1k5hmhimzinvb77gynm7z0cpjs\x2dpciutils\x2d3\x2e13\x2e0/bin\x1e/nix/store/m53q460bmkxmnwk52jknjsw49kgc1y81\x2dpkgconf\x2dwrapper\x2d2\x2e4\x2e3/bin\x1e/nix/store/qvh3sp5f0ggqzsaz7rdrhzmqw4y0wng7\x2dkitty\x2d0\x2e42\x2e1/bin\x1e/nix/store/dwkmidd517xl626fhmsnrhliii44gn7i\x2dimagemagick\x2d7\x2e1\x2e2\x2d0/bin\x1e/nix/store/0cjxn9v10y6ywv9yfdb50dzr84xhpxhl\x2dncurses\x2d6\x2e5\x2ddev/bin
 SETUVAR __fish_initialized:3800
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_plugins:jorgebucaran/fisher
@@ -14,7 +15,7 @@ SETUVAR fish_color_end:green
 SETUVAR fish_color_error:brred
 SETUVAR fish_color_escape:brcyan
 SETUVAR fish_color_history_current:\x2d\x2dbold
-SETUVAR fish_color_host:normal
+SETUVAR fish_color_host:blue
 SETUVAR fish_color_host_remote:yellow
 SETUVAR fish_color_normal:normal
 SETUVAR fish_color_operator:brcyan

@@ -46,6 +46,8 @@ tooltip label {
 
 #workspaces {
   padding: 0px 0px;
+
+  font-size: 5px;
 }
 
 #window {
@@ -91,5 +93,5 @@ tooltip label {
 
 
 #battery {
-  font-size: 24px;
+  font-size: 14px;
 }

@@ -1,6 +1,4 @@
-#!/bin/bash
-
-CONF="$HOME/.config/hypr/monitors.conf"
+CONF="/home/rflsaa/.config/hypr/monitors.conf"
 
 enable_edp() {
   sed -i 's/monitor = eDP-1, disabled, 1920x1080, 1920x0, 1/monitor = eDP-1, 1920x1080, 1920x0, 1/' "$CONF"

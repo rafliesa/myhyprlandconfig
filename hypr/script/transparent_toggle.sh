@@ -1,6 +1,4 @@
-#!/bin/bash
-
-CONFIG_FILE="$HOME/.config/hypr/hyprland.conf"
+CONFIG_FILE="/home/rflsaa/.config/hypr/hyprland.conf"
 LINE="source = ~/.config/hypr/transparent.conf"
 
 if grep -Fxq "$LINE" "$CONFIG_FILE"; then
